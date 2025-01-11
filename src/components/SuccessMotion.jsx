@@ -37,12 +37,14 @@ const FlexContainer = styled.div`
   height: 100%;
   gap: 5rem;
   background: linear-gradient(0deg, rgba(3, 5, 22, 0) 20%, rgb(3, 5, 22) 80%);
+  overflow: hidden; /* Hide scrollbar */
 `;
 
 const SkillImageContainer = styled.div`
   position: relative;
   width: auto;
   height: 340px;
+  overflow: hidden; /* Hide scrollbar */
 `;
 
 const SkillImageBackground = styled.div`
