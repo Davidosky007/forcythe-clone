@@ -8,6 +8,7 @@ const Container = styled.div`
   scroll-behavior: smooth;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 5rem;
   margin-top: 10rem;
   max-width: 52rem;
   background-position: center top;
@@ -82,6 +83,10 @@ const Count = styled.div`
   font-weight: 600;
   color: rgb(96 166 231/1);
   font-size: 3rem;
+
+  @media (max-width: 768px) {
+    font-size: 2.25rem;
+  }
 `;
 
 const Label = styled.span`
@@ -94,6 +99,11 @@ const Label = styled.span`
   white-space: nowrap;
   font-size: 1.125rem;
   line-height: 1.75rem;
+
+  @media (max-width: 768px) {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 `;
 
 const GlobalStyle = createGlobalStyle`

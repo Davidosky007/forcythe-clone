@@ -6,6 +6,8 @@ import Testimonies from './components/Testimonies';
 import WhatWeDo from './components/WhatWeDo';
 import Benefits from './components/Benefits';
 import Counts from './components/Counts';
+import Blogs from './components/Blogs';
+import Cta from './components/Cta';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <WhatWeDo />
         <Benefits />
         <Counts />
+        <Blogs />
+        <Cta />
       </div>
     </div>
   );
