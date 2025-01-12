@@ -42,13 +42,13 @@ const Section = styled.div`
   padding-left: 7rem;
   padding-right: 7rem;
   background: linear-gradient(0deg, rgb(7, 22, 38) 20%, rgb(3, 5, 22) 69%);
-  margin-bottom: 6rem;
+  // margin-bottom: 6rem;
 
 
   @media (max-width: 768px) {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
-    margin-bottom: 4rem;
+    // margin-bottom: 4rem;
   }
 `;
 

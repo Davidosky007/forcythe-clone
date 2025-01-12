@@ -8,6 +8,7 @@ import Benefits from './components/Benefits';
 import Counts from './components/Counts';
 import Blogs from './components/Blogs';
 import Cta from './components/Cta';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Counts />
         <Blogs />
         <Cta />
+        <Footer />
       </div>
     </div>
   );
