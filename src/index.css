@@ -13,6 +13,7 @@ body {
   background-image: url('./images/header-background.svg');
   background-repeat: no-repeat;
   background-position: top;
+  background-size: contain;
 }
 
 code {

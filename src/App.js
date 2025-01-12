@@ -4,6 +4,8 @@ import Header from './components/Header';
 import SuccessMotion from './components/SuccessMotion';
 import Testimonies from './components/Testimonies';
 import WhatWeDo from './components/WhatWeDo';
+import Benefits from './components/Benefits';
+import Counts from './components/Counts';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <SuccessMotion />
         <Testimonies />
         <WhatWeDo />
+        <Benefits />
+        <Counts />
       </div>
     </div>
   );
