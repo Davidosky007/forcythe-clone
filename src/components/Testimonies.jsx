@@ -53,7 +53,7 @@ export default function Testimonies() {
           <span className="text-[#fff]">us{" "}</span>
         </div>
       </p>
-      <div className="w-full hide-scrollbar max-w-[80vw] mx-auto">
+      <div className="w-full overflow-x-scroll hide-scrollbar max-w-[80vw] mx-auto">
         <div className="w-full border-[1px] border-[#06438C] rounded-full grid grid-cols-5 min-w-[750px]">
           <div className="w-full p-[1.1rem] cursor-pointer transition-all duration-300 rounded-s-full">
             <div className="w-fit h-full col mx-auto gap-1.5 text-white text-[17px] font-medium min-w-fit flex items-center justify-center">
